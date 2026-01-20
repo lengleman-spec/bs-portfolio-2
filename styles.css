@@ -1,10 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+button {
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -161,4 +174,17 @@
 p.para {
   color: var(--text-color);
   font: normal 500 16px/25px;
+}
+
+/* FORCE Boxicons to render */
+.bx {
+  font-family: boxicons !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  display: inline-block;
+  line-height: 1;
+}
+
+.single-brand {
+  height: 100px;
 }
