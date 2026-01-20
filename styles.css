@@ -139,3 +139,26 @@
   color: whitesmoke;
   box-shadow: var(--box-shadow);
 }
+
+/* About Area */
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+.site-main .about-area img {
+  padding-top: 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px;
+  letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px;
+}
