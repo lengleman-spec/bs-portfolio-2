@@ -176,15 +176,37 @@ p.para {
   font: normal 500 16px/25px;
 }
 
-/* FORCE Boxicons to render */
-.bx {
-  font-family: boxicons !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  display: inline-block;
-  line-height: 1;
+/* Brand Area */
+.site-main .brand-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
 }
 
-.single-brand {
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1.8rem 0;
+  margin: 0.9rem 0;
+  width: 180px;
   height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  width: 50%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img {
+  filter: brightness(0.15);
 }
