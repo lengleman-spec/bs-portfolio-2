@@ -289,3 +289,7 @@ p.para {
   display: flex;
   flex-direction: column;
 }
+
+.site-main .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
