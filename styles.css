@@ -233,7 +233,6 @@ p.para {
   width: 400px;
   height: 400px;
   z-index: 0;
-  /* margin-left: 340px; */
 }
 
 .site-main .brand-area .experience-area > *:not(.bg-panel) {
@@ -292,4 +291,10 @@ p.para {
 
 .site-main .services-area .services:hover {
   box-shadow: var(--box-shadow);
+}
+
+/* PROJECT AREA */
+.our-project .img img {
+  height: 300px;
+  width: 100%;
 }
