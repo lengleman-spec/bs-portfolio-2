@@ -267,3 +267,25 @@ p.para {
   height: 150px;
   width: auto;
 }
+
+.site-main .services-area {
+  padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0 14rem;
+}
+
+.site-main .services-area h1 {
+  font-size: 35px;
+}
+
+.site-main .services-area .services {
+  background: rgb(240, 240, 240);
+  padding: 2rem 0;
+  width: 100%;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+  display: flex;
+  flex-direction: column;
+}
