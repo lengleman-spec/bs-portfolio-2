@@ -295,6 +295,6 @@ p.para {
 
 /* PROJECT AREA */
 .our-project .img img {
-  height: 300px;
+  max-height: 450px;
   width: 100%;
 }
